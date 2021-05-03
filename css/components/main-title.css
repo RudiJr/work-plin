@@ -49,13 +49,25 @@
     margin-left: 0;
 }
 
-
 .main-title.-form::-moz-placeholder {
     color: #000;
     opacity: 1;
 }
 
+.main-title.-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 146px;
+    padding-top: 157px;
+    padding-bottom: 157px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 76px;
+    color: #000;
+    margin: 0;
+}
+
 .main-title .color {
     color: #6C63FF;
-    ;
 }
