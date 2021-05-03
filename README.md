@@ -83,3 +83,7 @@ Capture a screenshot, gif or video and share your result in Linkedin<br>
 Send me a feedback in <a href="https://www.linkedin.com/in/lubomfim">Linkedin</a>!<br>
 
 Designed and created by <a href="https://github.com/lubomfim">Lucas</a> :)
+
+
+  Desafio feito por: <a href="https://github.com/RudiJr">Rudi</a>
+  Challenge made by: <a href="https://github.com/RudiJr">Rudi</a>
