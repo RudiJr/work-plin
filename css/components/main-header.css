@@ -2,18 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 
 .main-header::after {
     content: "";
     position: absolute;
     background-color: rgba(196, 196, 196, 0.5);
-    width: 350px;
+    width: 600px;
     height: 450px;
-    right: 0;
-    border-radius: 1145px ;
-    margin-top: -260px;  
-    right: 40px;
+    border-radius: 50%;
+    right: -220px;
+    top: -260px;
     z-index: -1;
 }
