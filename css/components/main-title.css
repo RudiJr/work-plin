@@ -71,3 +71,26 @@
 .main-title .color {
     color: #6C63FF;
 }
+
+
+@media only screen and (max-device-width: 320px) and (max-height: 1790px) {
+
+.main-title {
+    font-size: 36px;
+    line-height: 54px;
+    margin-left:0;
+    margin-top: 22px;
+    margin-bottom: 38px;
+}
+
+.main-title.-second {
+    font-size: 36px;
+    line-height: 54px;
+    padding-top: 69px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    grid-area: text;
+}
+
+}
