@@ -93,4 +93,24 @@
     grid-area: text;
 }
 
+.main-title.-second.-noPd {
+    margin-top: 89px;
+}
+
+.main-title.-form {
+    font-size: 18px;
+    line-height: 27px;
+    text-shadow: none;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 26px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-title.-form.-card {
+   visibility: hidden;
+}
+
 }
