@@ -19,3 +19,25 @@
     margin-top: 120px;
 }
 
+@media only screen and (max-device-width: 320px) and (max-height: 1790px) {
+    .alignment {
+        justify-content: flex-start;
+        height: 353px;
+    }
+    
+    #how-many, #how-long, #email{
+        width: 273px;
+        margin-bottom: 27px;
+        margin-left: 23px;
+    }
+
+    #email {
+        margin-bottom: 0;
+    }
+
+    .mgInput {
+        margin-top: 89px;
+    }
+}
+
+

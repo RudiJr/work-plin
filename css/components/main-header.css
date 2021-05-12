@@ -15,3 +15,19 @@
     top: -260px;
     z-index: -1;
 }
+
+@media only screen and (max-device-width: 320px) and (max-height: 1790px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;        
+        justify-content:unset;
+        align-items:center;
+    }
+    .main-header::after {
+        content: "";
+        width: 360px;
+        height: 440px;
+        right: -103px;
+        top: -330px;
+    }
+}
