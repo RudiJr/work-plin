@@ -48,7 +48,7 @@ CSS
 - Sua página deve se parecer o mais próximo possível do design<br>
 - Sua página deve ser responsiva<br>
 
-<img src="design/desktop.png" width="380">
+<img src="assets/design/desktop.png" width="380">
 
 - Você pode encontrar o design aqui: <a href="https://www.figma.com/file/m95CWMbgT372P5ytrlSluF/Work-Plin?node-id=0%3A1">Figma</a>
 - You can find the design here: <a href="https://www.figma.com/file/m95CWMbgT372P5ytrlSluF/Work-Plin?node-id=0%3A1">Figma</a>
