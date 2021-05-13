@@ -55,6 +55,11 @@
     opacity: 1;
 }
 
+.main-title.-form::-webkit-placeholder {
+    color: #000;
+    opacity: 1;
+}
+
 .main-title.-footer {
     display: flex;
     justify-content: flex-end;
