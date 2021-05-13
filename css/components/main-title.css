@@ -55,7 +55,7 @@
     opacity: 1;
 }
 
-.main-title.-form::-webkit-placeholder {
+.main-title.-form::-webkit-input-placeholder {
     color: #000;
     opacity: 1;
 }
