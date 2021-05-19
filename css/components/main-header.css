@@ -8,12 +8,27 @@
     content: "";
     position: absolute;
     background-color: rgba(196, 196, 196, 0.5);
-    width: 37vw /* 600px*/;
-    height: 58vh;/* 450px*/
+    width: 33vw;
+    height: 54vh;
     border-radius: 50%;
     right: -13.40rem;
     top: -13.25rem;
     z-index: -1;
 }
 
+
+@media only screen and (max-width: 1400px) {
+    .main-header::after {
+        content: "";
+        position: absolute;
+        background-color: rgba(196, 196, 196, 0.5);
+        width: 39vw;
+        height: 62vh;
+        border-radius: 50%;
+        right: -13.40rem;
+        top: -13.25rem;
+        z-index: -1;
+    }
+    
+}
 
