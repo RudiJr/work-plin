@@ -97,6 +97,27 @@
     
 }
 
+@media only screen and (max-width: 1200px) {
+    .main-title.-second {
+        font-size: 2.4rem;
+        line-height: 3.70rem;
+        margin-left: 5rem;
+    }
+
+    .main-title.-form {
+        font-size: 1.1rem;
+        line-height: 2rem;
+        margin-left: 9rem;
+    }
+
+    .main-title.-form.-card {
+        font-size: 1.1rem;
+        width: 30.25rem;
+        height: 17.75rem;
+    }
+
+}
+
 
 
 

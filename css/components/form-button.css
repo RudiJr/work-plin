@@ -21,3 +21,9 @@
         padding-bottom: 0.31rem;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .btn-form {
+        height: 8vh;
+    }
+}
