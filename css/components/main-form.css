@@ -20,5 +20,13 @@
     margin-top: 7.81rem;
 }
 
+@media only screen and (max-width: 1200px) {
+    #how-many, #how-long, #email{
+        width: 28rem;
+        height: 3.70rem;
+    }
+    
+}
+
 
 

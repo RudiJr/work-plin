@@ -1,7 +1,7 @@
 .main-footer {
     background-color: #6C63FF;
     width: 100vw;
-    height: 51vh;
+    height: 50%;
     margin-top: 19.25rem;
 }
 
@@ -29,9 +29,13 @@
 
 @media only screen and (max-width: 1400px) {
     .main-footer {
-
-        height: 59vh;
         margin-top: 19.15rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-footer {
+        margin-top: 18rem;
     }
 }
 
