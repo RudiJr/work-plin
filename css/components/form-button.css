@@ -15,12 +15,9 @@
     margin: 0 auto;
 }
 
-/*
-576px
-768px
-992px
-1200px
-1400px
-*/
-
-
+@media only screen and (max-width: 1400px) {
+    .btn-form {
+        padding-top: 0.31rem;
+        padding-bottom: 0.31rem;
+    }
+}

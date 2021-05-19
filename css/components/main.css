@@ -14,10 +14,18 @@
 }
 
 
+@media only screen and (max-width: 1400px) {
+  .main-image {
+    width: 36vw;
+    height: 58vh;
+    margin-top: 12rem;
+  }
+}
+
 
 
 /*
-@media only screen and (max-device-width: 320px) and (max-height: 1790px) {
+@media only screen and (max-widht: 576px) {
 
   .intro {
     display: grid;
