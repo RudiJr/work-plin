@@ -6,6 +6,7 @@
   margin-top: 13.43rem;
   margin-left: 6.75rem;
   margin-right: 7.62rem;
+  width: 611px;
 }
 
 .intro {
@@ -16,18 +17,33 @@
 
 @media only screen and (max-width: 1400px) {
   .main-image {
-    width: 36vw;
-    height: 58vh;
+    width: 490px;
     margin-top: 12rem;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .main-image {
-    width: 34vw;
-    height: 42vh;
+    width: 360px;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .main-image {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-image {
+    width: 250px;
+    margin-left: 3.75rem;
+    margin-right: 0;
+    margin-top: 10rem;
+  }
+}
+
+
 
 
 

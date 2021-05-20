@@ -16,6 +16,7 @@
     margin-bottom: 3rem;
 }
 
+
 .mgInput {
     margin-top: 7.81rem;
 }
@@ -24,6 +25,34 @@
     #how-many, #how-long, #email{
         width: 28rem;
         height: 3.70rem;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+    #how-many, #how-long, #email{
+        width: 26rem;
+        height: 3.40rem;
+    }
+
+    .alignment{
+        padding-bottom: 4.90rem;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #how-many, #how-long, #email{
+        width: 20rem;
+        height: 3.10rem;
+    }
+
+    .alignment{
+        padding-bottom: 2rem;
+    }
+
+    .mgInput {
+        margin-top: 5.20rem;
     }
     
 }

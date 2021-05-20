@@ -13,17 +13,42 @@
     padding-top: 0.62rem;
     padding-bottom: 0.62rem;
     margin: 0 auto;
+    cursor: pointer;
 }
+
 
 @media only screen and (max-width: 1400px) {
     .btn-form {
-        padding-top: 0.31rem;
-        padding-bottom: 0.31rem;
+        padding-top: 0.50rem;
+        padding-bottom: 0.50rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .btn-form {
         height: 8vh;
+        padding-bottom: 0.44rem;
+        padding-top: 0.44rem;
     }
+}
+
+@media only screen and (max-width: 992px) {
+    .btn-form {
+        font-size: 2rem;
+        line-height: 3rem;
+        height: 7.40vh;
+        padding-bottom: 0.22rem;
+        padding-top: 0.22rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-form {
+        font-size: 1.60rem;
+        line-height: 2.80rem;
+        height: 6.90vh;
+        padding-bottom: 0.20rem;
+        padding-top: 0.20rem;
+    }
+
 }
