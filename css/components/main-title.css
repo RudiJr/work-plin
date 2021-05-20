@@ -35,6 +35,10 @@
     margin-right: 3.38rem;
 }
 
+.main-title.-form:focus {
+    outline: none;
+}
+
 .main-title.-form.-card {
     display: flex;
     text-align: center      ;
@@ -86,26 +90,46 @@
     }
 
     .main-title.-form {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         line-height: 2.15rem;
         margin-left: 11.20rem;
     }
 
     .main-title.-form.-card {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .main-title.-second {
-        font-size: 2.4rem;
-        line-height: 3.70rem;
+        font-size: 2.6rem;
+        line-height: 3.90rem;
         margin-left: 5rem;
     }
 
     .main-title.-form {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+        line-height: 2.20rem;
+        margin-left: 8.90rem;
+    }
+
+    .main-title.-form.-card {
+        font-size: 1.20rem;
+       
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-title.-second {
+        font-size: 2rem;
+        line-height: 3.40rem;
+        margin-left: 5rem;
+    }
+
+    .main-title.-form {
+        font-size: 1.2rem;
         line-height: 2rem;
         margin-left: 9rem;
     }
@@ -117,6 +141,96 @@
     }
 
 }
+
+@media only screen and (max-width: 992px) {
+    .main-title {
+        font-size: 2.70rem;
+        line-height: 4rem;
+        margin-left: 6.75rem;
+        margin-top: 3.82rem;
+
+    }
+    
+    
+    .main-title.-second {
+        font-size: 1.62rem;
+        line-height: 2.20rem;
+        margin-left: 5rem;
+    }
+
+    .main-title.-form {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-left: 4.60rem;
+    }
+
+    .main-title.-form.-card {
+        font-size: 0.90rem;
+        width: 29.15rem;
+        height: 17.50rem;
+        margin-right: 5.40rem;
+    }
+
+    .main-title.-second.-noPd {
+        font-size: 2rem;
+        margin-top: 10rem;
+    }
+
+    .main-title.-footer {
+        font-size: 4.20rem;
+        line-height: 2.80rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-left: 4.60rem;
+        margin-top: 3.82rem;
+
+    }
+        
+    .main-title.-second {
+        font-size: 1.62rem;
+        line-height: 2.10rem;
+        margin-left: 8rem;
+        padding-right: 0;
+        padding-top: 9rem;
+    }
+
+
+    .main-title.-second.-noPd {
+        font-size: 1.60rem;
+        margin-top: 10rem;
+    }
+
+    .main-title.-form {
+        font-size: 1.1rem;
+        line-height: 2rem;
+        margin-left: 3.60rem;
+        margin-right: 2.38rem;
+    }
+
+
+    .main-title.-form.-card {
+        font-size: 0.90rem;
+        line-height: 1.60rem;
+        margin-top: 4.45rem;
+        width: 28rem;
+        height: 16.70rem;
+        margin-right: 1rem;
+    }
+
+    .main-title.-footer {
+        font-size: 3rem;
+        line-height: 2.40rem;
+        padding-right: 5rem;
+    }
+
+}
+
 
 
 
