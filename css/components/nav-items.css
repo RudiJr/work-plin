@@ -23,14 +23,25 @@
 @media only screen and (max-width: 992px) {
     .nav-items {
         font-size: 1.2rem;
-        line-height: 2.10rem;
+        line-height: 1.80rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .nav-items {
-        font-size: 1.1rem;
-        line-height: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0.60rem;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        padding-right: 0;
+        grid-area: nav;
+    }
+    
+    .nav-items.-right {
+        margin-right: 0;
+        padding-right: 0;
     }
 }
 
