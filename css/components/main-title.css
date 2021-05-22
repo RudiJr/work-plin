@@ -11,14 +11,14 @@
 .main-title.-second {
     text-shadow: none;
     text-align: center;
-    padding-top: 10rem;
-    padding-right: 13.37rem;
+    padding-left: 0;
+    padding-top: 16rem;
 }
 
 .main-title.-second.-noPd {
     margin: 0;
     padding: 0;
-    margin-top: 11.62rem;
+    padding-top: 13.63rem;
 }
 
 .main-title.-form {
@@ -41,7 +41,8 @@
 
 .main-title.-form.-card {
     display: flex;
-    text-align: center      ;
+    text-align: center;
+    font-size: 1.3rem;
     padding: 2rem 1.75rem 2.82rem 2.38rem;
     width: 33.25rem;
     height: 19.75rem;
@@ -57,7 +58,7 @@
 
 .main-title.-form::-moz-placeholder {
     color: #000;
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .main-title.-form::-webkit-input-placeholder {
@@ -84,22 +85,25 @@
 }
 
 @media only screen and (max-width: 1400px) {
-
     .main-title.-second {
         font-size: 2.6rem;
         line-height: 4rem;
-        padding-right: 0;
-        padding-left: 8rem;
     }
 
     .main-title.-form {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 2.15rem;
-        margin-left: 11.20rem;
+        margin-left: 9rem;
+        margin-right: 3rem;
     }
 
     .main-title.-form.-card {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
+        line-height: 2.1rem;
+        width: 32rem;
+        height: 18rem;
+        margin-right: 7.40rem;
+        margin-left: 0;
     }
     
 }
@@ -113,13 +117,22 @@
     .main-title.-form {
         font-size: 1.2rem;
         line-height: 2rem;
-        margin-left: 9rem;
+        margin-left: 7.40rem;
+    }
+
+    .main-title.-second.-noPd {
+        font-size: 2.20rem;
+        padding-top: 11rem;
     }
 
     .main-title.-form.-card {
-        font-size: 1.1rem;
-        width: 30.25rem;
-        height: 17.75rem;
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 30rem;
+        height: 18rem;
+        margin-top: 6.5rem;
+        margin-right: 3.60rem;
+        padding: 1.20rem 1.40rem 2.10rem 1.90rem;
     }
 
 }
@@ -134,26 +147,22 @@
     .main-title.-second {
         font-size: 2.50rem;
         line-height: 3.60rem;
-        padding-right: 0;
-        padding-left: 8rem;
     }
 
     .main-title.-form {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 2rem;
-        margin-left: 4.60rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .main-title.-form.-card {
-        font-size: 0.90rem;
-        width: 29.15rem;
-        height: 17.50rem;
-        margin-right: 5.40rem;
+        display: none;
     }
 
     .main-title.-second.-noPd {
         font-size: 2rem;
-        margin-top: 10rem;
+        padding-top: 12rem;
     }
 
     .main-title.-footer {
@@ -168,7 +177,7 @@
     .main-title {
         padding-top: 2.82rem;
         padding-bottom: 1.80rem;
-        font-size: 2.25rem;
+        font-size: 3rem;
         line-height: 3.38rem;
         padding-left: 0;
         text-align: center;
@@ -176,36 +185,24 @@
     }
         
     .main-title.-second {
-        font-size: 2.25rem;
+        font-size: 2.60rem;
         line-height: 3.38rem;
-        padding-left: 0;
-        padding-right: 0;
         padding-top: 7rem;
         padding-bottom: 4rem;
         grid-area: text;
     }
 
-
     .main-title.-second.-noPd {
-        font-size: 1.60rem;
-        margin-top: 10rem;
+        font-size: 2.20rem;
+        padding-top: 11rem;
     }
 
     .main-title.-form {
-        font-size: 1.1rem;
+        font-size: 1.30rem;
         line-height: 2rem;
-        margin-left: 3.60rem;
-        margin-right: 2.38rem;
-    }
-
-
-    .main-title.-form.-card {
-        font-size: 0.90rem;
-        line-height: 1.60rem;
-        margin-top: 4.45rem;
-        width: 28rem;
-        height: 16.70rem;
-        margin-right: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: unset;
     }
 
     .main-title.-footer {
@@ -215,6 +212,39 @@
     }
 
 }
+
+@media only screen and (max-width: 576px) {
+    .main-title {
+        padding-top: 1.38rem;
+        padding-bottom: 2.38rem;
+        font-size: 2.25rem;
+    }
+
+    .main-title.-second {
+        font-size: 2.25rem;
+        padding-top: 4.32rem;
+        padding-bottom: 4rem;
+    }
+
+    .main-title.-second.-noPd {
+        font-size: 2.25rem;
+        line-height: 3.38rem;
+        padding-top: 11rem;
+    }
+
+
+    .main-title.-form {
+        font-size: 1.13rem;
+        line-height: 1.69rem;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: unset;
+    }
+
+        
+}
+
+
 
 
 

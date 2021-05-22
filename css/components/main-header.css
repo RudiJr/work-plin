@@ -56,10 +56,20 @@
     }
     
     .main-header::after {
-        width: 36vw;
-        height: 25vh;
-        right: -1.90rem;
-        top: -2.25rem;
+        width: 56vw;
+        height: 40vh;
+        right: 2rem;
+        top: -11.50rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .main-header::after {
+        width: 74vw;
+        height: 48vh;
+        right: 0;
+        left: 10rem;
+        top: -18rem;
     }
 }
 
