@@ -33,7 +33,7 @@
         flex-direction: column;
         justify-content: center;
         padding-top: 0.60rem;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 2.25rem;
         padding-right: 0;
         grid-area: nav;
@@ -43,6 +43,14 @@
         margin-right: 0;
         padding-right: 0;
     }
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-items {
+        font-size: 1.5rem;
+    }
+
+
 }
 
 
