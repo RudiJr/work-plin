@@ -89,14 +89,12 @@
         font-size: 2.6rem;
         line-height: 4rem;
     }
-
     .main-title.-form {
         font-size: 1.2rem;
         line-height: 2.15rem;
         margin-left: 9rem;
         margin-right: 3rem;
     }
-
     .main-title.-form.-card {
         font-size: 1.1rem;
         line-height: 2.1rem;
@@ -105,7 +103,6 @@
         margin-right: 7.40rem;
         margin-left: 0;
     }
-    
 }
 
 @media only screen and (max-width: 1200px) {
@@ -113,18 +110,15 @@
         font-size: 2.10rem;
         line-height: 3.30rem;
     }
-
     .main-title.-form {
         font-size: 1.2rem;
         line-height: 2rem;
         margin-left: 7.40rem;
     }
-
     .main-title.-second.-noPd {
         font-size: 2.20rem;
         padding-top: 11rem;
     }
-
     .main-title.-form.-card {
         font-size: 1rem;
         line-height: 2rem;
@@ -134,7 +128,11 @@
         margin-right: 3.60rem;
         padding: 1.20rem 1.40rem 2.10rem 1.90rem;
     }
-
+    .main-title.-footer {
+        font-size: 4.60rem;
+        padding-right: 6rem;
+        padding-left: 0;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -143,35 +141,29 @@
         line-height: 3.60rem;
         padding-left: 3.50rem;
     }
-
     .main-title.-second {
         font-size: 2.50rem;
         line-height: 3.60rem;
     }
-
     .main-title.-form {
         font-size: 1.3rem;
         line-height: 2rem;
         margin-left: 0;
         margin-right: 0;
     }
-
     .main-title.-form.-card {
         display: none;
     }
-
     .main-title.-second.-noPd {
         font-size: 2rem;
         padding-top: 12rem;
     }
-
     .main-title.-footer {
-        font-size: 4.20rem;
-        line-height: 2.80rem;
+        font-size: 4rem;
+        padding-right: 5rem;
+        padding-left: 0;
     }
-
 }
-
 
 @media only screen and (max-width: 768px) {
     .main-title {
@@ -183,7 +175,6 @@
         text-align: center;
         grid-area: title;
     }
-        
     .main-title.-second {
         font-size: 2.60rem;
         line-height: 3.38rem;
@@ -191,12 +182,10 @@
         padding-bottom: 4rem;
         grid-area: text;
     }
-
     .main-title.-second.-noPd {
         font-size: 2.20rem;
         padding-top: 11rem;
     }
-
     .main-title.-form {
         font-size: 1.30rem;
         line-height: 2rem;
@@ -204,13 +193,13 @@
         margin-right: 0;
         text-align: unset;
     }
-
     .main-title.-footer {
-        font-size: 3rem;
-        line-height: 2.40rem;
-        padding-right: 5rem;
+        grid-area: ft-title;
+        font-size: 3.60rem;
+        padding-right: 0;
+        padding-top: 2.8rem;
+        padding-bottom: 3.44rem;
     }
-
 }
 
 @media only screen and (max-width: 576px) {
@@ -219,20 +208,16 @@
         padding-bottom: 2.38rem;
         font-size: 2.25rem;
     }
-
     .main-title.-second {
         font-size: 2.25rem;
         padding-top: 4.32rem;
         padding-bottom: 4rem;
     }
-
     .main-title.-second.-noPd {
         font-size: 2.25rem;
         line-height: 3.38rem;
         padding-top: 11rem;
     }
-
-
     .main-title.-form {
         font-size: 1.13rem;
         line-height: 1.69rem;
@@ -240,20 +225,9 @@
         margin-right: 0;
         text-align: unset;
     }
-
-        
+    .main-title.-footer {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        padding-top: 2.5rem;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
