@@ -35,7 +35,7 @@
   .main-image {
     width: 330px;
     padding-left: 1.60rem;
-    padding-right: 8.60rem;
+    padding-right: 7.90rem;
   }
 }
 
@@ -65,6 +65,14 @@
     width: 290px;
   }
 }
+
+
+@media only screen and (max-width: 320px) {
+  .main-image {
+    width: 250px;
+  }
+}
+
 
 
 
