@@ -54,4 +54,3 @@ Designed and created by <a href="https://github.com/lubomfim">Lucas</a> :)
 
   
   Challenge made by: <a href="https://www.linkedin.com/in/rudi-junior/">Rudi</a>
-s
