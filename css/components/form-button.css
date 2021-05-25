@@ -1,6 +1,7 @@
 .btn-form {
     display: grid;
     width: 31.38vw;
+    max-width: 620px;
     height: 70px;
     background-color: #000;
     border-radius: 15px;

@@ -4,14 +4,14 @@
 
 .main-image {
   padding-top: 13.43rem;
-  padding-left: 6.75rem;
-  padding-right: 16rem;
+  padding-right: 15rem;
   width: 611px;
 }
 
 .intro {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 
@@ -19,30 +19,28 @@
   .main-image {
     width: 460px;
     padding-top: 12rem;
-    padding-right: 14rem;
-    padding-left: 4rem;
+    padding-right: 12rem;
+    
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .main-image {
-    width: 360px;
-    padding-right: 12rem;
+    width: 420px;
+    padding-right: 7rem;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .main-image {
-    width: 330px;
-    padding-left: 1.60rem;
-    padding-right: 7.90rem;
+    width: 370px;
+    padding-right: 6rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .main-image {
-    width: 350px;
-    padding-left: 0;
+    width: 360px;
     padding-right: 0;
     padding-top: 0;
     grid-area: img;
@@ -62,7 +60,7 @@
 
 @media only screen and (max-width: 576px) {
   .main-image {
-    width: 290px;
+    width: 300px;
   }
 }
 
