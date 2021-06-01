@@ -4,16 +4,68 @@
     align-items: center;
 }
 
+.main-nav {
+    background-image: url(https://rudijr.github.io/work-plin/assets/img/Ellipse%202.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    background-position-x: 7.90rem;
+    background-position-y: 4.90rem;
+    padding-bottom: 6rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .main-nav {
+        background-position-x: 6.62rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
-    .main-header{
+    .main-header {
         display: grid;
+        background-image: url(https://rudijr.github.io/work-plin/assets/img/Ellipse%202.svg);
+        background-repeat: no-repeat;
+        background-position-x: 30rem;
+        background-position-y: 0.05rem;
         grid-template-columns: 1fr;
-        grid-template-areas: "title" 
-        "nav";
+        grid-template-areas: "title" "nav";
         flex-direction: column;
         justify-content: unset;
         align-items: unset;
     }
-    
-   
+    .main-nav {
+        background-image: none;
+        background-repeat: unset;
+        position: unset;
+        right: unset;
+        background-position-x: unset;
+        background-position-y: unset;
+        padding-bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .main-header {
+        background-position-x: 21rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .main-header {
+        background-image: url(https://rudijr.github.io/work-plin/assets/img/Ellipse%203.svg);
+        background-position-x: 22rem;
+        background-position-y: 0.09rem;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    .main-header {
+        background-position-x: 16rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .main-header {
+        background-position-x: 8rem;
+    }
 }
