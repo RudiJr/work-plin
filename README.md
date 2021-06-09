@@ -6,7 +6,7 @@
     Aqui você encontrará o melhor co-work online!
        <br />
     <br />
-    <a href="https://github.com/lubomfim/work-plin">Challenge</a>
+    <a href="https://rudijr.github.io/work-plin/">See the Challenge completed Here</a>
   </p>
 </p>
 
